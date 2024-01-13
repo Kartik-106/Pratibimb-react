@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Rancho&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+* {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+}
+body {
+    position: relative;
+    height: 100%;
+    background-color: darkgrey;
+}
+.about-us{
+    padding-top: 2rem;
+    margin-right: 10rem;
+    margin-left: 15rem;
+    
+}
+.about-us h2{
+    font-family: 'Slabo 27px', serif;
+    padding-left: 20rem;
+    padding-bottom: 1rem;
+    font-weight: 1000;
+    font-size: 2.5rem;
+}
+.about-us p{
+    font-family: 'Slabo 27px', serif;
+}
+.left{
+    padding-left: 8rem;
+    display: flex;
+    flex-direction: column;
+}
+.left p{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.right{
+    display: flex;
+    padding-left: 20rem;
+    margin-top: -6rem;
+    margin-right: 10rem;
+}
+.right p{
+    font-size: 1.2rem;
+    font-weight: 50;
+    color: whitesmoke
+}
+.background-img-container{
+    padding-top: 2rem;
+    padding-left: 12rem;
+}
+.background-img-2 {
+    background: url(../../../public/img/Homecover2.png);
+    height: 35rem;
+    width: 72rem;
+}
+
+.team{
+    padding-top: 5rem;
+    padding-left: 15rem;
+    display: flex;
+    margin-bottom: 4rem;
+    gap: 5rem;
+    margin-right: 5rem;
+}
+.left2{
+    background: url(../../../public/img/screamingfaces2.jpg);
+    width: 100rem;
+    height: 35rem;
+    
+}
+.right2{
+    padding-top: 3rem;
+}
+.right2 p{
+    padding-top: 2rem;
+    margin-right: 8rem;
+}

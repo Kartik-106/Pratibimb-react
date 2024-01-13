@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(30, 29, 29);
+}
+.event-top-background{
+    background: url(../../../public/img/graphathon-banner4.jpg);
+    height: 27rem;
+    width: 84rem;
+    margin-left: 6rem;
+    margin-top: 2rem;
+    z-index: 0;
+}
+.top-content{
+    font-size: 1.5rem;
+    z-index: 1;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 10rem;
+    margin-top: 12rem;
+    margin-left: 38rem;
+    border: 3px solid white;
+    height: 3rem;
+    transition: 0.5s;
+}
+.top-content:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.2);
+}
+
+.doodle{
+    background: url(../../../public/img/camera-doodle5.jpg);
+    height: 24.5rem;
+    width: 84rem;
+    display: flex;
+    margin-left: 6rem;
+    margin-top: 1rem;
+}

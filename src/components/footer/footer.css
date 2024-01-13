@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Rancho&display=swap');
+
+.footer{
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Address */
+
+.address{
+    padding-left: 120px;
+}
+.address img{
+    width: 120px;
+}
+.college_address{
+    color: white;
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+}
+.college_address a{
+    color: white;
+    margin-bottom: 50px;
+    font-family: 'Playfair Display', serif;
+}
+.mail{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+}
+.mail span{
+    padding-left: 5px;
+}
+
+
+/* Navigation */
+
+li{
+    list-style: none;
+}
+.navigation{
+    margin-left: -450px;
+    margin-right: -220px;
+}
+.navigation ul{
+    padding-top: 10px;
+    margin-left: -50px;
+}
+.navigation li{
+    padding-top: 20px;
+    font-size: 20px;
+}
+.navigation li a{
+    color: white;
+}
+
+
+/* Social-media links */
+.social-media-footer{
+    margin-top: -20px;
+    margin-left: -40px;
+}
+.social-media-footer ul{
+    display: flex;
+    flex-direction: row ;
+    gap: 20px;
+    align-items: center;
+}
